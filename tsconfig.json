@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./built/",
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": [
+        "components/*"
+      ]
+    },
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5",
+    "experimentalDecorators": true,
+    "noImplicitThis": false,
+  },
+  "typeRoots": [
+    "node_modules/@types",
+    "src/ts/typings"
+  ],
+  "include": [
+    "./src/**/*"
+  ],
+}
